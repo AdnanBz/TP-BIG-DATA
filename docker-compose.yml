@@ -1,0 +1,34 @@
+networks:
+  tp04-net:
+    driver: bridge
+
+services:
+  app-1:
+    image: 111111111111111111111111110/tp04-analysis:latest
+    container_name: container-compose-1
+    networks:
+      - tp04-net
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8084:5000"
+
+  app-2:
+    image: 111111111111111111111111110/tp04-analysis:latest
+    container_name: container-compose-2
+    networks:
+      - tp04-net
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8085:5000"
+
+  app-3:
+    image: 111111111111111111111111110/tp04-analysis:latest
+    container_name: container-compose-3
+    networks:
+      - tp04-net
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8086:5000"

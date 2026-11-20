@@ -1,0 +1,91 @@
+﻿timestamp,object,message
+2026-10-27T18:18:08.849Z,gracious_blackwell,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T18:18:08.849Z,gracious_blackwell,خطأ: لم يتم العثور على ملف البيانات في المسار /app/data/dataset.csv
+2026-10-27T18:18:08.849Z,gracious_blackwell,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T19:23:46.367Z,interesting_burnell,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T19:23:46.367Z,interesting_burnell,خطأ: لم يتم العثور على ملف البيانات في المسار /app/data/dataset.csv
+2026-10-27T19:23:46.367Z,interesting_burnell,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T19:49:22.506Z,container-1,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T19:49:22.506Z,container-1,خطأ: لم يتم العثور على ملف البيانات في المسار /app/data/dataset.csv
+2026-10-27T19:49:22.506Z,container-1,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T19:50:33.955Z,container-2,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T19:50:33.955Z,container-2,خطأ: لم يتم العثور على ملف البيانات في المسار /app/data/dataset.csv
+2026-10-27T19:50:33.955Z,container-2,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T19:51:04.206Z,container-3,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T19:51:04.206Z,container-3,خطأ: لم يتم العثور على ملف البيانات في المسار /app/data/dataset.csv
+2026-10-27T19:51:04.206Z,container-3,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"تم بنجاح تحميل البيانات! عدد السطور: 20000, عدد الأعمدة: 9"
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,عينة من أعمدة البيانات:
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']"
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,معلومات سريعة حول البيانات:
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,<class 'pandas.core.frame.DataFrame'>
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"RangeIndex: 20000 entries, 0 to 19999"
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,Data columns (total 9 columns):
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, #   Column              Non-Null Count  Dtype 
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"'---  ------              --------------  ----- "
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 0   Reviewer Name       20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 1   Profile Link        20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 2   Country             19999 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 3   Review Count        20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 4   Review Date         20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 5   Rating              20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 6   Review Title        20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 7   Review Text         20000 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2, 8   Date of Experience  18967 non-null  object
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,dtypes: object(9)
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,memory usage: 1.4+ MB
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,None
+2026-10-27T20:42:28.993Z,tp04-bigdata/app-2,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T20:42:29.199Z,tp04-bigdata/app-1,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,"تم بنجاح تحميل البيانات! عدد السطور: 20000, عدد الأعمدة: 9"
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,عينة من أعمدة البيانات:
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,"['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']"
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,معلومات سريعة حول البيانات:
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,<class 'pandas.core.frame.DataFrame'>
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,"RangeIndex: 20000 entries, 0 to 19999"
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,Data columns (total 9 columns):
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, #   Column              Non-Null Count  Dtype 
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,"'---  ------              --------------  ----- "
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 0   Reviewer Name       20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 1   Profile Link        20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 2   Country             19999 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 3   Review Count        20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 4   Review Date         20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 5   Rating              20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 6   Review Title        20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 7   Review Text         20000 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1, 8   Date of Experience  18967 non-null  object
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,dtypes: object(9)
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,memory usage: 1.4+ MB
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,None
+2026-10-27T20:42:29.200Z,tp04-bigdata/app-1,"'=== تم الانتهاء بنجاح ==="
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"'=== بدء معالجة بيانات Big Data داخل الحاوية ==="
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"تم بنجاح تحميل البيانات! عدد السطور: 20000, عدد الأعمدة: 9"
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,عينة من أعمدة البيانات:
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']"
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,معلومات سريعة حول البيانات:
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,<class 'pandas.core.frame.DataFrame'>
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"RangeIndex: 20000 entries, 0 to 19999"
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,Data columns (total 9 columns):
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, #   Column              Non-Null Count  Dtype 
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"'---  ------              --------------  ----- "
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 0   Reviewer Name       20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 1   Profile Link        20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 2   Country             19999 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 3   Review Count        20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 4   Review Date         20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 5   Rating              20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 6   Review Title        20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 7   Review Text         20000 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3, 8   Date of Experience  18967 non-null  object
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,dtypes: object(9)
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,memory usage: 1.4+ MB
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,None
+2026-10-27T20:42:29.471Z,tp04-bigdata/app-3,"'=== تم الانتهاء بنجاح ==="
